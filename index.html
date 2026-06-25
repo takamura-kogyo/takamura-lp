@@ -85,6 +85,15 @@
     flex-direction:column;
     justify-content:space-between;
   }
+  @media(max-width:760px){
+    .hero{
+      min-height:0;
+      aspect-ratio:1/1.05;
+      background:
+        linear-gradient(180deg, rgba(15,13,12,.65) 0%, rgba(15,13,12,.15) 35%, rgba(15,13,12,.55) 68%, rgba(15,13,12,.95) 100%),
+        url('wing_truck_mobile.jpeg') center center / cover no-repeat;
+    }
+  }
   .hero::after{
     content:"";
     position:absolute;left:0;top:0;bottom:0;width:6px;
